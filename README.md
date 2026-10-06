@@ -1,6 +1,17 @@
 Camunda Platform examples
 ====================
 
+Java 11
+
+````shell
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+````
+
+Run tests:
+````shell
+ mvn clean test
+ ````
+
 > Looking for the "invoice" example contained in the distribution?  You can find it here: https://github.com/camunda/camunda-bpm-platform/tree/master/examples/invoice
 
 Camunda Platform examples is a collection of focused usage examples for the [Camunda Platform](https://github.com/camunda/camunda-bpm-platform), intended to get you started quickly. The sources on the master branch work with the current Camunda release. Follow the links below to browse the examples for the Camunda version you use:
